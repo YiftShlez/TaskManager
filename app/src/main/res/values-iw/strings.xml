@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">מנהל המשימות</string>
+    <string name="version_name">גרסה 1.0.0</string>
+    <string name="action_settings">הגדרות</string>
+    <string name="action_help">עזרה</string>
+    <string name="my_tasks">המשימות שלי</string>
+    <string name="daily_tasks">משימות יומיות</string>
+    <string name="share">שיתוף</string>
+    <string name="about">מידע נוסף</string>
+</resources>

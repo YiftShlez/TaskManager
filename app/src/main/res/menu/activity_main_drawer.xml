@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single" android:id="@+id/nav_actionGroup">
+        <item
+            android:id="@+id/nav_tasks"
+            android:icon="@drawable/menu_ic_task"
+            android:title="@string/my_tasks" />
+        <item
+            android:id="@+id/nav_daily"
+            android:icon="@android:drawable/ic_menu_day"
+            android:title="@string/daily_tasks" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@android:drawable/ic_menu_preferences"
+            android:title="@string/action_settings" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="@string/action_help" />
+    </group>
+    <group android:checkableBehavior="none" android:id="@+id/nav_shareGroup">
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@android:drawable/ic_menu_share"
+            android:title="@string/share" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="@string/about" />
+    </group>
+
+</menu>
